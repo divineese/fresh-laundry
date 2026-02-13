@@ -1,0 +1,21 @@
+{
+  "name": "fresh-laundry",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "admin"
+  ],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "^54.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  }
+}
